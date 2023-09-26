@@ -5,7 +5,7 @@ int x;
     scanf("%d",&x);
 for(int i = 1800;i < 2022;i++){
     
-    if(x == 1916 || x == 1940 || x == 1944 || x == 1946){
+    if(x == 1916 || x == 1940 || x == 1944 || x == 1946 || x == 1942){
         printf("Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d.\n",x);
         break;
     }
