@@ -8,9 +8,16 @@
     if(A == B){
         printf("Os valores lidos sao iguais\n");
     }
+    else if(A == 1,B == 0){
+        printf("%u eh maior que %u\n%u nao eh multiplo de %u\n",A,B,A,B);
+    }
+
     else if(A > B){
         if(A%B == 0){
         printf("%u eh maior que %u\n%u eh multiplo de %u\n",A,B,A,B);
+    }
+    else if(A == 0, B == 1){
+        printf("%u eh menor que %u\n%u nao eh multiplo de %u\n",A,B,A,B);
     }
     else{
         printf("%u eh maior que %u\n%u nao eh multiplo de %u\n",A,B,A,B);
