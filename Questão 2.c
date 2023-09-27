@@ -9,7 +9,7 @@
         n1 = n %10;
         soma += n1;
     }
-        if(n %2==0){
+        if(n2 %2==0){
             printf("%u eh par\n",n2);
         }
         else{
